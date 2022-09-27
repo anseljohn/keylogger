@@ -53,6 +53,12 @@ $ sudo make uninstall
 You can pass in two optional parameters to the program. The `clear` option will clear the logs at the default location. Any other argument passed in will be used as the path to the log file for that process. See below:
 
 ```bash
+# View statistics
+# Note: WIP
+# Ideas for this include:
+# Common misspellings, most/least typed words, etc
+$ keylogger stats
+
 # Clear the logfile.
 $ keylogger clear
 Logfile cleared.
