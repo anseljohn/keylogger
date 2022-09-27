@@ -29,6 +29,9 @@ int main(int argc, const char *argv[]) {
             printf("%s cleared.\n", logfileLocation);
             fflush(stdout);
             exit(1);
+        } else if (strcmp(argv[1], "stats") == 0) {
+            printf("The stats function is a work in progress.\n");
+            exit(1);
         } else {
             logfileLocation = argv[1];
         }
